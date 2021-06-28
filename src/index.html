@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Webpack Template Project</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form class="filter">
+            <div class="search">
+                <p class="search__title title-filter">Search</p>
+                <input type="search" id="search" class="search__subtitle filter-text" placeholder="search text">
+            </div>
+            <div class="manufacturer">
+                <p class="manufacturer__title title-filter">Manufacturer</p>
+                <ul class="manufacturer__list">
+                    <li class="manufacturer__item">
+                        <input type="checkbox" id="checkbox" value="samsung"> samsung
+                    </li>
+                    <li class="manufacturer__item">
+                        <input type="checkbox" id="checkbox" value="honor"> honor
+                    </li>
+                    <li class="manufacturer__item">
+                        <input type="checkbox" id="checkbox" value="xiaomi"> xiaomi
+                    </li>
+                    <li class="manufacturer__item">
+                        <input type="checkbox" id="checkbox" value="huawei"> huawei
+                    </li>
+                    <li class="manufacturer__item">
+                        <input type="checkbox" id="checkbox" value="apple"> apple
+                    </li>
+                    <li class="manufacturer__item">
+                        <input type="checkbox" id="checkbox" value="one plus"> one plus
+                    </li>
+                    <li class="manufacturer__item">
+                        <input type="checkbox" id="checkbox" value="google"> google
+                    </li>
+                    <li class="manufacturer__item">
+                        <input type="checkbox" id="checkbox" value="nokia"> nokia
+                    </li>
+                    <li class="manufacturer__item">
+                        <input type="checkbox" id="checkbox" value="sony"> sony
+                    </li>
+                    <li class="manufacturer__item">
+                        <input type="checkbox" id="checkbox" value="meizu"> meizu
+                    </li>
+                </ul>
+            </div>
+            <div class="price">
+                <p class="price__title title-filter">Price</p>
+                <p class="price_small hide js-price_small">min-price</p>
+                <input type="text" id="price" class="price__min filter-text" placeholder="min price">
+                <p class="price_small hide js-price_small">max-price</p>
+                <input type="text" id="price" class="price__max filter-text" placeholder="max price">
+            </div>
+            <button id="btn" class="button">Submit</button>
+        </form>
+        <div class="products">
+            <div id="btn-add-product" class="products__btn-add-product add"><span class="products__span-add-product add"><img class="products__icon-add-product add" src="/icons/add-icon.png" alt=""></span> add offer</div>
+            <div class="products__row" id="content"></div>
+        </div>
+        <div id="popup" class="offer-form-popup styles-class-popup hide-block">
+            <div class="offer-form-popup__information information">
+                <div class="information__box">
+                    <form id="information__correct" class="information__correct" value="">
+                        <p class="information__header">Fill offer<br>information</p>
+                        <div class="information__input">
+                            <span class="span-inp">Title <span class="simb">*</span></span>
+                            <input name="title" type="text" class="information__title">
+                        </div>
+                        <div class="information__input">
+                            <span class="span-inp">Photo URL <span class="simb">*</span></span>
+                            <input name="photo" type="text" class="information__photo-url">
+                        </div>
+                        <div class="information__input">
+                            <span class="span-inp">Description <span class="simb">*</span></span>
+                            <textarea name="description" type="text" class="information__description"></textarea>
+                        </div>
+                        <div class="information__input">
+                            <span class="span-inp">Price <span class="simb">*</span></span>
+                            <input id="form-price" name="price" type="text" class="information__title">
+                        </div>
+                        <div class="information__input">
+                            <span class="span-inp">Choose information <span class="simb">*</span></span>
+                            <input name="manufacturer" type="text" class="information__choose-information">
+                        </div>
+                        <div class="buttons">
+                            <input id="button-save" type="submit" value="Save">
+                            <button id="button-cancel" class="button-cancel">Cancel</button>
+                        </div>
+                    </form>
+                    <div class="information__preview">
+                        <div id="information__preview-box" class="information__preview-box">
+                        </div>
+                    </div>
+                </div>
+                <div class="information__decision"></div>
+            </div>
+        </div>
+        <div id="popup-add-product" class="add-offer-popup styles-class-popup hide-block">
+            <form id="form-add-product" class="add-offer-popup__information-product information-product" action="">
+                <p class="information__header">Fill in product<br>information</p>
+                <div class="information-product__input">
+                    <span class="span-inp">Title <span class="simb">*</span></span>
+                    <input name="title" type="text" class="information-product__title">
+                </div>
+                <div class="information-product__input">
+                    <span class="span-inp">Photo URL <span class="simb">*</span></span>
+                    <input name="photo" type="text" class="information-product__photo-url">
+                </div>
+                <div class="information-product__input">
+                    <span class="span-inp">Description <span class="simb">*</span></span>
+                    <textarea name="description" type="text" class="information-product__description"></textarea>
+                </div>
+                <div class="information-product__input">
+                    <span class="span-inp">Price <span class="simb">*</span></span>
+                    <input id="form-price" name="price" type="text" class="information-product__title">
+                </div>
+                <div class="information-product__input">
+                    <span class="span-inp">Choose information <span class="simb">*</span></span>
+                    <input name="manufacturer" type="text" class="information-product__choose-information">
+                </div>
+                <div class="buttons">
+                    <input id="add-product" type="submit" value="Add">
+                    <button id="button-cancel" class="button-cancel">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

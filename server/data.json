@@ -1,0 +1,116 @@
+{
+  "offers": [
+    {
+      "id": 1,
+      "title": "Samsung Galaxy A50 4GB/64GB (белый)",
+      "photo": "https://content2.onliner.by/catalog/device/header/c93a1df6be27222912d27530201d7d7a.jpeg",
+      "description": "Android, экран 6.4\" AMOLED (1080x2340), Exynos 9610, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 25 Мп, аккумулятор 4000 мАч, 2 SIM",
+      "price": "519",
+      "manufacturer": "samsung"
+    },
+    {
+      "id": 2,
+      "title": "HONOR 20 (ледяной белый)",
+      "description": "Android, экран 6.26\" IPS (1080x2340), HiSilicon Kirin 980, ОЗУ 6 ГБ, флэш-память 128 ГБ, камера 48 Мп, аккумулятор 3750 мАч, 2 SIM",
+      "price": 799,
+      "photo": "https://content2.onliner.by/catalog/device/header/e98cb07ad9bc97fc000a6c41b49474cc.jpeg",
+      "manufacturer": "honor"
+    },
+    {
+      "id": 3,
+      "title": "Xiaomi Redmi Note 8 Pro 6GB/64GB(зеленый)",
+      "description": "Android, экран 6.53\" IPS (1080x2340), Mediatek Helio G90T, ОЗУ 6 ГБ, флэш-память 64 ГБ, карты памяти, камера 64 Мп, аккумулятор 4500 мАч, 2 SIM",
+      "price": 543,
+      "photo": "https://content2.onliner.by/catalog/device/header/e16c6a794798c03985a53861f42a1da9.jpeg",
+      "manufacturer": "xiaomi"
+    },
+    {
+      "id": 4,
+      "title": "Huawei P30 Lite MAR-LX1M Dual SIM 4GB/128GB",
+      "description": "Android, экран 6.15\" IPS (1080x2312), HiSilicon Kirin 710, ОЗУ 4 ГБ, флэш-память 128 ГБ, карты памяти, камера 24 Мп, аккумулятор 3340 мАч, 2 SIM",
+      "price": 530,
+      "photo": "https://content2.onliner.by/catalog/device/header/d882b98a1b406734271f81fc9508934e.jpeg",
+      "manufacturer": "huawei"
+    },
+    {
+      "id": 5,
+      "title": "Apple iPhone 11 64GB (черный)",
+      "description": "Apple iOS, экран 6.1\" IPS (828x1792), Apple A13 Bionic, ОЗУ 4 ГБ, флэш-память 64 ГБ, камера 12 Мп, аккумулятор 3046 мАч, 1 SIM",
+      "price": 1980,
+      "photo": "https://content2.onliner.by/catalog/device/header/e2189f90f9088975c553ec33431fc186.jpeg",
+      "manufacturer": "apple"
+    },
+    {
+      "id": 6,
+      "title": "OnePlus 7 Pro 8GB/256GB (синий)",
+      "description": "Android, экран 6.67\" AMOLED (1440x3120), Qualcomm Snapdragon 855, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 48 Мп, аккумулятор 4000 мАч, 2 SIM",
+      "price": 1580,
+      "photo": "https://content2.onliner.by/catalog/device/header/72fe584b86221112efc8dda98544811c.jpeg",
+      "manufacturer": "one plus"
+    },
+    {
+      "id": 7,
+      "title": "Google Pixel 4 64GB (черный)",
+      "description": "Android, экран 5.7\" OLED (1080x2280), Qualcomm Snapdragon 855, ОЗУ 6 ГБ, флэш-память 64 ГБ, камера 12.2 Мп, аккумулятор 2800 мАч, 1 SIM",
+      "price": 2150,
+      "photo": "https://content2.onliner.by/catalog/device/header/26db8d966054e6a97eadd18c03d7d02f.jpeg",
+      "manufacturer": "google"
+    },
+    {
+      "id": 8,
+      "title": "HONOR 8X 4GB/64GB JSN-L22 (черный)",
+      "description": "Android, экран 6.5\" IPS (1080x2340), HiSilicon Kirin 710, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 20 Мп, аккумулятор 3750 мАч, 2 SIM",
+      "price": 406,
+      "photo": "https://content2.onliner.by/catalog/device/header/0d6b756e182e33acdb3f9050cfed1d8b.jpeg",
+      "manufacturer": "honor"
+    },
+    {
+      "id": 9,
+      "title": "Nokia 7.2 4GB/64GB (черный)",
+      "photo": "https://content2.onliner.by/catalog/device/header/80a6607684e62196704e49ceb76caef1.jpeg",
+      "description": "Android, экран 6.3\" IPS (1080x2280), Qualcomm Snapdragon 660 MSM8956 Plus, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 48 Мп, аккумулятор 3500 мАч, 2 SIM",
+      "price": "594",
+      "manufacturer": "nokia"
+    },
+    {
+      "id": 10,
+      "title": "Sony Xperia XA2 Plus 6GB/64GB (черный)",
+      "description": "Android, экран 6\" IPS (1080x2160), Qualcomm Snapdragon 630, ОЗУ 6 ГБ, флэш-память 64 ГБ, карты памяти, камера 23 Мп, аккумулятор 3580 мАч, 2 SIM",
+      "price": 695,
+      "photo": "https://content2.onliner.by/catalog/device/header/c55431f4578ff00fcc794be66cfb5e2d.jpeg",
+      "manufacturer": "sony"
+    },
+    {
+      "id": 11,
+      "title": "MEIZU Note 8 4GB/64GB (черный)",
+      "description": "Android, экран 5.99\" IPS (1080x2160), Qualcomm Snapdragon 632, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 12 Мп, аккумулятор 3600 мАч, 2 SIM",
+      "price": 290,
+      "photo": "https://content2.onliner.by/catalog/device/header/e5eace36f76b61b55e28ea6d38195b64.jpeg",
+      "manufacturer": "meizu"
+    },
+    {
+      "id": 12,
+      "title": "Nokia 106 (2018) (темно-серый)",
+      "description": "экран 1.8\" TFT (120x160), ОЗУ 4 Мб, флэш-память 4 Мб, аккумулятор 800 мАч, 2 SIM",
+      "price": 46.12,
+      "photo": "https://content2.onliner.by/catalog/device/header/4c67251344feedbf4c221de9ef93507b.jpeg",
+      "manufacturer": "nokia"
+    },
+    {
+      "id": 13,
+      "title": "Samsung Galaxy Fold F900F (серебристый)",
+      "description": "Android, экран 7.3\" AMOLED (1536x2152), Qualcomm Snapdragon 855, ОЗУ 12 ГБ, флэш-память 512 ГБ, камера 12 Мп, аккумулятор 4380 мАч, 1 SIM",
+      "price": 7000,
+      "photo": "https://content2.onliner.by/catalog/device/header/939e595542f214b680cef0f575f29742.jpeg",
+      "manufacturer": "samsung"
+    },
+    {
+      "id": 14,
+      "title": "Samsung Galaxy S9 Dual SIM 64GB Exynos 9810",
+      "description": "Android, экран 5.8\" AMOLED (1440x2960), Exynos 9810, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 12 Мп, аккумулятор 3000 мАч, 2 SIM",
+      "price": 1188,
+      "photo": "https://content2.onliner.by/catalog/device/header/198eab8de1166942eff6c394f2ca8980.jpeg",
+      "manufacturer": "samsung"
+    }
+  ]
+}
